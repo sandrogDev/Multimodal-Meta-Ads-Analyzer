@@ -19,7 +19,6 @@ graph TD
     style E fill:#00bfff,stroke:#333,stroke-width:2px,color:#fff
 ```
 
-*(If you are reading this on GitHub, the code above automatically renders as a professional flowchart!)*
 
 ---
 
