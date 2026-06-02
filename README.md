@@ -1,4 +1,4 @@
-# Multimodal Meta Ads Analyzer 📸🧠
+# Multimodal Meta Ads Analyzer
 
 An AI-powered Python automation tool designed for Digital Marketing Agencies and Media Buyers. This script leverages Google Gemini's multimodal capabilities to analyze Facebook and Instagram Ad creatives (Image + Copy) simultaneously, acting as an automated Senior Marketing Director.
 
@@ -10,10 +10,10 @@ Instead of A/B testing blindly and wasting ad spend, this tool evaluates the syn
 
 ```mermaid
 graph TD
-    A[📸 ad_image.webp / .jpg] -->|Visual Data| C{⚙️ Python Pipeline}
-    B[📝 ad_copy.txt] -->|Textual Data| C
-    C -->|Multimodal API Request| D((🧠 Gemini 2.5 AI))
-    D -->|Evaluation & Scoring| E[📊 Actionable Marketing Report]
+    A[ ad_image.webp / .jpg] -->|Visual Data| C{ Python Pipeline}
+    B[ ad_copy.txt] -->|Textual Data| C
+    C -->|Multimodal API Request| D(( Gemini 2.5 AI))
+    D -->|Evaluation & Scoring| E[ Actionable Marketing Report]
     
     style D fill:#8a2be2,stroke:#333,stroke-width:4px,color:#fff
     style E fill:#00bfff,stroke:#333,stroke-width:2px,color:#fff
